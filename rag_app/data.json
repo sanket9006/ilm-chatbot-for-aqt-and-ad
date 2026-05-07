@@ -2,52 +2,70 @@
   {
     "name": "AirDoctor 3000",
     "category": "Air Purifier",
-    "description": "The AirDoctor 3000 is a professional-grade air purifier that removes ultra-fine particles from the air. It features a powerful 3-stage filtration system including a pre-filter, a Dual-Action Carbon/Gas Trap/VOC filter, and the proprietary UltraHEPA filter. Ideal for medium-to-large rooms, bedrooms, and offices.",
+    "description": "The AirDoctor AD3000 is a professional-grade air purifier that removes ultra-fine particles from the air. It features a powerful 3-stage filtration system including a pre-filter, an Activated Carbon Filter for odors and VOCs, and the proprietary UltraHEPA® filter. Ideal for medium-to-large rooms, bedrooms, and offices.",
     "specs": {
       "coverage": "638 sq. ft. 4x/hour (1,276 sq. ft. 2x/hour)",
-      "filter_type": "UltraHEPA (captures 99.99% of particles down to 0.003 microns)",
-      "noise_level": "Quiet operation at 30-50 dB",
-      "dimensions": "23 x 15.75 x 8.25 inches",
+      "filter_type": "UltraHEPA® (ADF3001), Carbon (ADF3002), and Pre-Filter (ADF3003)",
+      "fan_speeds": "4 (Low, Medium, High, Boost)",
+      "noise_level": "Quiet operation",
+      "dimensions": "15.75 x 8.25 x 23 inches",
       "weight": "18 lbs",
-      "power_consumption": "11-95 Watts",
-      "cadr": "340 cfm"
+      "power_consumption": "11-110 Watts",
+      "timer": "1-24 hours",
+      "features": "Air Quality Monitor, Auto Mode, Built-in Ionizer, Night Mode, Clean Filter Indicator, Control Lock"
     },
     "faqs": [
       {
-        "question": "Is it good for allergies?",
-        "answer": "Yes, it is specifically designed to remove 99.99% of allergens, dust, pollen, and ultra-fine particles as small as 0.003 microns, which is 100 times smaller than standard HEPA filters."
+        "question": "How often should I change the filters?",
+        "answer": "The UltraHEPA® filter should be replaced every 12 months, and the Carbon filter every 6 months. The pre-filter should be vacuumed monthly for best performance."
       },
       {
-        "question": "How often should I change filters?",
-        "answer": "The UltraHEPA filter should be replaced every 12 months, and the Carbon/Gas Trap/VOC filter every 6 months under normal use. The pre-filter should be cleaned/vacuumed monthly."
+        "question": "How do I reset the Replace Filter light?",
+        "answer": "After changing the filter, press the 'Auto' and 'Dim' buttons together for 3 seconds. The light will flash 3 times and turn off."
+      },
+      {
+        "question": "What do the air quality colors mean?",
+        "answer": "Blue indicates good air quality, Orange indicates fair air quality, and Red indicates poor air quality. In Auto mode, the fan speed adjusts automatically based on these levels."
       },
       {
         "question": "Does it remove pet odors?",
-        "answer": "Yes, the Dual-Action Carbon/Gas Trap/VOC filter is specifically designed to remove pet odors, smoke, and volatile organic compounds."
+        "answer": "Yes, the Activated Carbon Filter is specifically designed to remove odors from pets, smoke, and Volatile Organic Compounds (VOCs)."
+      },
+      {
+        "question": "How much electricity does it use?",
+        "answer": "It is highly energy-efficient, consuming only 11 watts on low and 110 watts on the high setting. It costs approximately $30-40 per year to run 24/7 on Auto-mode."
       }
     ]
   },
   {
     "name": "AirDoctor 5000",
     "category": "Air Purifier",
-    "description": "The AirDoctor 5000 is our most powerful model, designed for large spaces, high ceilings, and open-concept living areas. It features dual-sided filtration for maximum airflow and purification speed. Perfect for large master suites, living rooms, and small businesses.",
+    "description": "The AirDoctor AD5000 is a powerful professional air purifier designed for extra-large spaces and high ceilings. It features a dual-sided filtration system with two sets of filters to provide maximum airflow and purification speed. Perfect for large living areas and open-concept homes.",
     "specs": {
       "coverage": "1,001 sq. ft. 4x/hour (2,002 sq. ft. 2x/hour)",
-      "filter_type": "Dual UltraHEPA & Dual Carbon Filters",
-      "noise_level": "35-55 dB",
-      "dimensions": "29.75 x 16 x 16 inches",
+      "filter_type": "2x UltraHEPA® (ADF5005), 2x Carbon (ADF5006), and 2x Pre-Filter (ADF5007)",
+      "fan_speeds": "6 (Speed 1: Whisper, Speed 6: Boost)",
+      "dimensions": "16 x 16 x 28.75 inches",
       "weight": "33 lbs",
-      "power_consumption": "10-100 Watts",
-      "cadr": "560 cfm"
+      "power_consumption": "11-110 Watts",
+      "features": "Dual-sided filtration, Air Quality Monitor, Auto Mode, Built-in Ionizer, Night Mode, Clean Filter Indicator, Control Lock"
     },
     "faqs": [
       {
-        "question": "Can it handle mold?",
-        "answer": "Yes, the UltraHEPA filter is highly effective at capturing mold spores and preventing them from recirculating in your air."
+        "question": "How many filters does it have?",
+        "answer": "The AD5000 has two sets of filters, one on each side of the unit. Each set includes an UltraHEPA filter, an Activated Carbon Filter, and a Pre-Filter. All filters should be replaced at the same time."
       },
       {
-        "question": "Is it energy efficient?",
-        "answer": "Yes, it is Energy Star certified and features an Auto Mode that adjusts fan speed based on air quality to save energy."
+        "question": "How do I reset the filter light?",
+        "answer": "To reset the Replace Filter alert, press the 'Auto' and 'Dim' buttons together for 3 seconds. The light will flash 3 times and turn off."
+      },
+      {
+        "question": "Can I wash the filters?",
+        "answer": "No, never wash the UltraHEPA or Carbon filters. The Pre-Filter is reusable but should be vacuumed monthly rather than washed to avoid introducing moisture."
+      },
+      {
+        "question": "What is the electricity cost?",
+        "answer": "The AD5000 is highly energy-efficient, consuming 11-110 watts. It costs approximately $30-40 per year to run 24/7 in Auto-mode."
       }
     ]
   },
@@ -73,17 +91,58 @@
   {
     "name": "AirDoctor 1000",
     "category": "Air Purifier",
-    "description": "The portable tower model, ideal for desktop use or small bedrooms. It fits into tight spaces while providing full AirDoctor purification performance.",
+    "description": "The AirDoctor AD1000 is a professional-grade portable tower air purifier designed for desktop use or small bedrooms. It features a powerful purification process including UltraHEPA™ filtration for microscopic particles and a high-quality Carbon filter for odors and VOCs.",
     "specs": {
       "coverage": "285 sq. ft. 4x/hour",
-      "filter_type": "UltraHEPA",
+      "filter_type": "UltraHEPA™ (ADF1001) & Carbon/VOC (ADF1002)",
+      "fan_speeds": "4 (Low, Medium, High, Boost)",
       "noise_level": "30-52 dB",
-      "dimensions": "23 x 9 x 9 inches"
+      "dimensions": "23 x 9 x 9 inches",
+      "power_consumption": "40 Watts",
+      "electrical_ratings": "120V / 60Hz",
+      "timer": "1-24 hours",
+      "features": "Air Quality Monitor, Auto Mode, Built-in Ionizer, Night Mode, Clean Filter Indicator, Control Lock"
     },
     "faqs": [
       {
-        "question": "Does it have an air quality sensor?",
-        "answer": "Yes, it features an integrated Air Quality Sensor and an LED indicator that changes color based on real-time air quality."
+        "question": "What do the Air Quality Monitor colors mean?",
+        "answer": "The LED ring display changes color based on air quality: Blue indicates Good, Orange indicates Fair, and Red indicates Poor air quality."
+      },
+      {
+        "question": "How do I reset the Clean Filter Indicator light?",
+        "answer": "To reset the filter indicator after replacement, press and hold the ION and DIM buttons together for 3 seconds. The light will flash 3 times and turn off."
+      },
+      {
+        "question": "How often should I clean the filters and sensor?",
+        "answer": "Vacuum the outside of the UltraHEPA (pre-filter) every 2 months. Filters generally last at least 6 months. If the air quality monitor stays on one color, clean the sensor chamber at the rear using a vacuum."
+      },
+      {
+        "question": "Does it have a child lock feature?",
+        "answer": "Yes, press the 'Timer' and 'Ion' buttons simultaneously for 3 seconds to activate or deactivate the Control Lock feature."
+      },
+      {
+        "question": "Does it have an auto mode?",
+        "answer": "Yes, in Auto mode, the fan speed automatically adjusts based on air quality: Low for Good, Medium for Fair, and High/Boost for Poor quality."
+      },
+      {
+        "question": "Where is the best place to position the AirDoctor 1000?",
+        "answer": "Place the unit close to the source of air pollution. Ensure it is at least 1 foot away from walls on all sides, and do not place it directly in the path of air from fans or air conditioners."
+      },
+      {
+        "question": "What should I do if the airflow is reduced or filtering seems poor?",
+        "answer": "First, check if you removed the plastic bags from the filters before installation. Also, ensure the inlet or outlet grills aren't blocked and check if the filters need replacement."
+      },
+      {
+        "question": "What is the warranty for the AirDoctor 1000?",
+        "answer": "The air purifier comes with a one-year limited warranty against defects in materials and workmanship. The UltraHEPA and Carbon filters have a separate 30-day limited warranty from the date of purchase."
+      },
+      {
+        "question": "Can I use the AirDoctor 1000 in a bathroom or kitchen?",
+        "answer": "It is not recommended for use in bathrooms or other wet/humid environments. It should also not be used in greasy environments like kitchens, as it is not designed to filter oil or grease."
+      },
+      {
+        "question": "Does Auto Mode activate the Ionizer?",
+        "answer": "No, Auto Mode only adjusts the fan speed based on air quality. The Ion generator must be turned on or off separately using the ION button."
       }
     ]
   },
@@ -299,50 +358,198 @@
   {
     "name": "AirDoctor 4000",
     "category": "Air Purifier",
-    "description": "The AirDoctor 4000 features a sleek, cylindrical design with mobility wheels for easy movement. It provides excellent purification for large spaces.",
+    "description": "The AirDoctor AD4000 is a powerful air purification system designed to improve indoor air quality with its sleek, cylindrical design. It features an integrated UltraHEPA® + Premium Carbon/VOC Filter for high-efficiency particulate and odor removal.",
     "specs": {
       "coverage": "694 sq. ft. 4x/hour",
-      "filter_type": "UltraHEPA & Carbon/VOC",
-      "cadr": "370 cfm",
-      "design": "Cylindrical with mobility wheels"
+      "filter_type": "Integrated UltraHEPA® + Premium Carbon/VOC Filter",
+      "fan_speeds": "6 (Speed 1: Whisper, Speed 6: Boost)",
+      "dimensions": "14 x 14 x 28 inches",
+      "weight": "15.76 lbs",
+      "power_consumption": "7-70 Watts",
+      "timer": "1-24 hours",
+      "features": "Cylindrical design, Mobility wheels, Air Quality Monitor, Auto Mode, Built-in Ionizer, Night Mode, Replace Filter Indicator, Control Lock"
     },
     "faqs": [
       {
+        "question": "How often should I change the filter?",
+        "answer": "The integrated filter should be replaced every 6 months depending on use and environmental conditions."
+      },
+      {
         "question": "Does it have wheels?",
         "answer": "Yes, the AirDoctor 4000 features mobility wheels, making it easy to move from room to room."
+      },
+      {
+        "question": "How do I reset the Replace Filter light?",
+        "answer": "The Replace Filter light is a solid red light. After changing to a genuine AirDoctor filter and installing it correctly, the light should turn off. If it flashes, check filter installation."
+      },
+      {
+        "question": "How much electricity does it use?",
+        "answer": "It is very energy-efficient, consuming only 7 watts on low and 70 watts on the high setting. Running it 24/7 on Auto-mode costs about $30-40 per year."
       }
     ]
   },
   {
     "name": "AirDoctor 3000M",
     "category": "Air Purifier",
-    "description": "The AD3000M is a commercial or office-focused variation of the 3000 series. It is designed for specific environments and may lack certain consumer features like Auto-mode.",
+    "description": "The AD3000M is a professional air purifier optimized for commercial or office environments. It focus on high-performance UltraHEPA™ filtration for maximum particulate removal in shared spaces.",
     "specs": {
       "coverage": "630 sq. ft. 4x/hour",
-      "filter_type": "UltraHEPA & Carbon/VOC",
-      "cadr": "340 cfm"
+      "filter_type": "UltraHEPA™ (ADF3001) & Pre-filter (ADF3010)",
+      "fan_speeds": "4 (Low, Medium, High, Boost)",
+      "power_consumption": "95 Watts",
+      "electrical_ratings": "120V / 60Hz",
+      "timer": "1-24 hours",
+      "features": "Filter Indicator Light, Filter Reset button, Control Lock"
     },
     "faqs": [
       {
-        "question": "What does the 'M' stand for?",
-        "answer": "The 'M' usually denotes variations intended for commercial or office usage, which may not include consumer features like Auto-mode."
+        "question": "What is the filter lifespan?",
+        "answer": "The UltraHEPA™ filter lasts up to 12 months, and the Pre-filter lasts up to 3 months, depending on the environment."
+      },
+      {
+        "question": "How do I reset the filter lights?",
+        "answer": "To reset the filter indicators, press the illuminated 'Filter Reset' button on the control panel. The light will flash three times and turn off."
       }
     ]
   },
   {
     "name": "AirDoctor 5000H",
     "category": "Air Purifier",
-    "description": "The AD5000H is a variation of the powerful 5000 series, designed for specific settings that require customizable filtration. It allows users to swap the pre-filter for additional carbon filtration.",
+    "description": "The AirDoctor AD5000H is a high-performance professional air purifier designed for large spaces. It features a unique dual-sided filtration system with two sets of filters (one on each side) to provide maximum airflow. It is designed for settings requiring high-capacity particulate removal using UltraHEPA® technology.",
     "specs": {
       "coverage": "1,043 sq. ft. 4x/hour",
-      "filter_type": "Customizable (Dual UltraHEPA / Extra Carbon)",
-      "cadr": "534-556 cfm"
+      "filter_type": "2x UltraHEPA® (ADF5005) & 2x Pleated Pre-Filters (ADF5001)",
+      "fan_speeds": "6 (Speed 1: Whisper, Speed 6: Boost)",
+      "power_consumption": "105 Watts",
+      "electrical_ratings": "120V / 60Hz",
+      "timer": "1-24 hours",
+      "features": "Dual-sided filtration, Filter Indicator Light, Control Lock, Whisper Mode"
     },
     "faqs": [
       {
-        "question": "Can I customize the filters on the 5000H?",
-        "answer": "Yes, the 5000H allows for customizable filter stacks, such as swapping the pre-filter for additional carbon filtration to handle heavy odors."
+        "question": "How many filters does the AD5000H use?",
+        "answer": "The AD5000H uses two sets of filters—one on each side of the unit. Each set consists of an UltraHEPA® filter and a Pleated Pre-Filter, totaling four filters that should be replaced at the same time to maintain performance."
+      },
+      {
+        "question": "How do I reset the filter indicator light?",
+        "answer": "After replacing the filters, press and hold the 'Filter Reset' button on the control panel for 3 seconds. The light will flash 3 times and then turn off."
+      },
+      {
+        "question": "What are the fan speed settings?",
+        "answer": "The AD5000H has 6 fan speeds: Speed 1 is 'Whisper' mode for quiet operation, Speeds 2-3 are for everyday use, Speeds 4-5 are for high contaminants like smoke, and Speed 6 is 'Boost' for rapid purification."
+      },
+      {
+        "question": "Does it have a child lock?",
+        "answer": "Yes, you can activate the Control Lock by pressing the 'Speed' and 'Timer' buttons simultaneously for 3 seconds."
+      },
+      {
+        "question": "Where should I place the AD5000H?",
+        "answer": "Always keep the unit on the floor/ground. Maintain at least 1 foot of clearance from walls on both sides for proper airflow, and avoid placing it near fans or air conditioners."
+      },
+      {
+        "question": "How often should I replace the filters?",
+        "answer": "The Pleated Pre-Filters last up to 6 months and the UltraHEPA® Filters last up to 12 months, depending on use and environmental conditions."
       }
     ]
+  },
+  {
+    "name": "AirDoctor 1000 UltraHEPA Filter",
+    "category": "Accessory",
+    "description": "Replacement UltraHEPA™ filter for the AirDoctor AD1000 air purifier. Removes 99.99% of microscopic particles including smoke, pollen, dust, animal dander, and dust mites.",
+    "specs": {
+      "model": "ADF1001",
+      "lifespan": "6-12 months (depending on use)",
+      "maintenance": "Vacuum the outside (pre-filter) every 2 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 1000 Carbon/VOC Filter",
+    "category": "Accessory",
+    "description": "High-quality Carbon filter for the AirDoctor AD1000 air purifier. Removes odors and Volatile Organic Compounds (VOCs) from the air.",
+    "specs": {
+      "model": "ADF1002",
+      "lifespan": "6 months (depending on use)"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 5000H UltraHEPA Filter",
+    "category": "Accessory",
+    "description": "Replacement UltraHEPA® filter for the AirDoctor AD5000H. Note that the AD5000H requires two of these filters (one for each side).",
+    "specs": {
+      "model": "ADF5005",
+      "lifespan": "12 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 5000H Pleated Pre-Filter",
+    "category": "Accessory",
+    "description": "Replacement Pleated Pre-Filter for the AirDoctor AD5000H. Note that the AD5000H requires two of these filters (one for each side).",
+    "specs": {
+      "model": "ADF5001",
+      "lifespan": "6 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 5000 UltraHEPA Filter",
+    "category": "Accessory",
+    "description": "Replacement UltraHEPA® filter for the AirDoctor AD5000. Each AD5000 unit requires two of these filters (one for each side).",
+    "specs": {
+      "model": "ADF5005",
+      "lifespan": "12 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 5000 Carbon Filter",
+    "category": "Accessory",
+    "description": "Replacement Activated Carbon Filter for the AirDoctor AD5000. Each AD5000 unit requires two of these filters (one for each side).",
+    "specs": {
+      "model": "ADF5006",
+      "lifespan": "6 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 4000 UltraHEPA + Carbon Filter",
+    "category": "Accessory",
+    "description": "Integrated replacement filter for the AirDoctor AD4000, combining UltraHEPA® technology with a Premium Carbon/VOC filter.",
+    "specs": {
+      "lifespan": "6 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 3000 UltraHEPA Filter",
+    "category": "Accessory",
+    "description": "Replacement UltraHEPA® filter for the AirDoctor AD3000 and AD3000M air purifiers.",
+    "specs": {
+      "model": "ADF3001",
+      "lifespan": "12 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 3000 Carbon Filter",
+    "category": "Accessory",
+    "description": "Replacement Activated Carbon Filter for the AirDoctor AD3000 air purifier.",
+    "specs": {
+      "model": "ADF3002",
+      "lifespan": "6 months"
+    },
+    "faqs": []
+  },
+  {
+    "name": "AirDoctor 3000M Pre-Filter",
+    "category": "Accessory",
+    "description": "Replacement Pre-filter specifically for the AirDoctor AD3000M commercial model.",
+    "specs": {
+      "model": "ADF3010",
+      "lifespan": "3 months"
+    },
+    "faqs": []
   }
 ]
