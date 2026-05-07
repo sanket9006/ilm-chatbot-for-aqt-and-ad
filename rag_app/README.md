@@ -4,6 +4,79 @@ A production-grade Retrieval-Augmented Generation (RAG) system built to serve as
 
 ---
 
+## 🗺️ System Architecture
+
+### 1. High-Level Architecture Flow
+This diagram illustrates the "Life of a Query," showing how data is ingested and how user queries are processed through the RAG pipeline.
+
+```mermaid
+graph TD
+    subgraph "Phase 1: Initialization (ETL)"
+        A[data.json] --> B[data_loader.py]
+        B --> C[chunking.py]
+        C --> D[embeddings.py]
+        D --> E[(FAISS Vector Store)]
+    end
+
+    subgraph "Phase 2: Query Processing"
+        F[User Query] --> G[FastAPI Endpoint]
+        G --> H{Query Rewriter}
+        H --> I[MiniLM Embeddings]
+        I --> J[Vector Search]
+        J --> E
+        E --> K[Top-K Context Chunks]
+        K --> L[Prompt Constructor]
+        L --> M[Google Gemini 2.0]
+        M --> N[Final Answer]
+        N --> G
+    end
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:4px
+    style M fill:#dfd,stroke:#333,stroke-width:2px
+```
+
+### 2. Codebase & File Linkage
+This diagram shows the internal dependencies and how the various Python modules interact.
+
+```mermaid
+graph LR
+    subgraph "Frontend"
+        HTML[index.html / JS]
+    end
+
+    subgraph "API Layer"
+        MAIN[main.py]
+    end
+
+    subgraph "Orchestration"
+        PIPE[rag_pipeline.py]
+    end
+
+    subgraph "Core Modules"
+        LOAD[data_loader.py]
+        CHUNK[chunking.py]
+        EMB[embeddings.py]
+        VEC[vector_store.py]
+    end
+
+    subgraph "Data Storage"
+        JSON[data.json]
+        INDEX[FAISS Index]
+    end
+
+    HTML -- "HTTP POST /ask" --> MAIN
+    MAIN -- "instantiates" --> PIPE
+    PIPE -- "reads" --> LOAD
+    LOAD -- "extracts" --> JSON
+    PIPE -- "utilizes" --> CHUNK
+    PIPE -- "utilizes" --> EMB
+    PIPE -- "utilizes" --> VEC
+    VEC -- "manages" --> INDEX
+```
+
+---
+
 ## 🏗️ Tech Stack & Architecture
 
 *   **Backend Framework**: `FastAPI` (High performance, async support)
