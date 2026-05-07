@@ -1,0 +1,192 @@
+[
+  {
+    "name": "AirDoctor 3000",
+    "category": "Air Purifier",
+    "description": "The AirDoctor 3000 is a professional-grade air purifier that removes ultra-fine particles from the air. It features a powerful 3-stage filtration system including a pre-filter, a Dual-Action Carbon/Gas Trap/VOC filter, and the proprietary UltraHEPA filter. Ideal for medium-to-large rooms, bedrooms, and offices.",
+    "specs": {
+      "coverage": "638 sq. ft. 4x/hour (1,276 sq. ft. 2x/hour)",
+      "filter_type": "UltraHEPA (captures 99.99% of particles down to 0.003 microns)",
+      "noise_level": "Quiet operation at 30-50 dB",
+      "dimensions": "23 x 15.75 x 8.25 inches",
+      "weight": "18 lbs",
+      "power_consumption": "11-95 Watts",
+      "cadr": "340 cfm"
+    },
+    "faqs": [
+      {
+        "question": "Is it good for allergies?",
+        "answer": "Yes, it is specifically designed to remove 99.99% of allergens, dust, pollen, and ultra-fine particles as small as 0.003 microns, which is 100 times smaller than standard HEPA filters."
+      },
+      {
+        "question": "How often should I change filters?",
+        "answer": "The UltraHEPA filter should be replaced every 12 months, and the Carbon/Gas Trap/VOC filter every 6 months under normal use. The pre-filter should be cleaned/vacuumed monthly."
+      },
+      {
+        "question": "Does it remove pet odors?",
+        "answer": "Yes, the Dual-Action Carbon/Gas Trap/VOC filter is specifically designed to remove pet odors, smoke, and volatile organic compounds."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 5000",
+    "category": "Air Purifier",
+    "description": "The AirDoctor 5000 is our most powerful model, designed for large spaces, high ceilings, and open-concept living areas. It features dual-sided filtration for maximum airflow and purification speed. Perfect for large master suites, living rooms, and small businesses.",
+    "specs": {
+      "coverage": "1,001 sq. ft. 4x/hour (2,002 sq. ft. 2x/hour)",
+      "filter_type": "Dual UltraHEPA & Dual Carbon Filters",
+      "noise_level": "35-55 dB",
+      "dimensions": "29.75 x 16 x 16 inches",
+      "weight": "33 lbs",
+      "power_consumption": "10-100 Watts",
+      "cadr": "560 cfm"
+    },
+    "faqs": [
+      {
+        "question": "Can it handle mold?",
+        "answer": "Yes, the UltraHEPA filter is highly effective at capturing mold spores and preventing them from recirculating in your air."
+      },
+      {
+        "question": "Is it energy efficient?",
+        "answer": "Yes, it is Energy Star certified and features an Auto Mode that adjusts fan speed based on air quality to save energy."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 2000",
+    "category": "Air Purifier",
+    "description": "Compact and portable, the AirDoctor 2000 is designed for smaller spaces like nurseries, guest bedrooms, and home offices. Despite its size, it uses the same UltraHEPA technology as the larger models.",
+    "specs": {
+      "coverage": "305 sq. ft. 4x/hour (610 sq. ft. 2x/hour)",
+      "filter_type": "UltraHEPA",
+      "noise_level": "25-45 dB",
+      "dimensions": "18.75 x 12 x 12 inches",
+      "weight": "12 lbs",
+      "power_consumption": "5-55 Watts"
+    },
+    "faqs": [
+      {
+        "question": "Is it quiet enough for a baby's nursery?",
+        "answer": "Absolutely. It operates as low as 25 dB, which is quieter than a whisper, making it perfect for sleep environments."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 1000",
+    "category": "Air Purifier",
+    "description": "The portable tower model, ideal for desktop use or small bedrooms. It fits into tight spaces while providing full AirDoctor purification performance.",
+    "specs": {
+      "coverage": "285 sq. ft. 4x/hour",
+      "filter_type": "UltraHEPA",
+      "noise_level": "30-52 dB",
+      "dimensions": "23 x 9 x 9 inches"
+    },
+    "faqs": [
+      {
+        "question": "Does it have an air quality sensor?",
+        "answer": "Yes, it features an integrated Air Quality Sensor and an LED indicator that changes color based on real-time air quality."
+      }
+    ]
+  },
+  {
+    "name": "AquaTru Classic",
+    "category": "Water Purifier",
+    "description": "The original countertop reverse osmosis water purifier. It transforms tap water into pure, delicious water without the need for plumbing or installation. Uses a 4-stage Ultra Reverse Osmosis process.",
+    "specs": {
+      "stages": "4-stage filtration (Sediment, Pre-Carbon, RO Membrane, VOC Carbon)",
+      "tank_capacity": "3 liters (tap water tank) / 2.7 liters (pure water tank)",
+      "technology": "Patented Ultra Reverse Osmosis",
+      "dimensions": "14 x 14 x 12 inches",
+      "filtration_time": "12-15 minutes for a full tank"
+    },
+    "faqs": [
+      {
+        "question": "Does it remove fluoride?",
+        "answer": "Yes, AquaTru's reverse osmosis technology is certified to remove up to 95% of fluoride, along with lead, chromium-6, and 80+ other contaminants."
+      },
+      {
+        "question": "How do I know when to change filters?",
+        "answer": "The front panel has filter life indicator lights (1, 2, 3, and 4) that will blink when a specific filter needs replacement."
+      }
+    ]
+  },
+  {
+    "name": "AquaTru Connect",
+    "category": "Water Purifier",
+    "description": "The smart version of the Classic countertop purifier. Includes WiFi connectivity and integration with the AquaTru app to monitor water quality, filter life, and savings from not buying bottled water.",
+    "specs": {
+      "stages": "4-stage filtration",
+      "smart_features": "WiFi, App monitoring, filter alerts, water consumption tracking",
+      "technology": "Reverse Osmosis",
+      "app_compatibility": "iOS and Android"
+    },
+    "faqs": [
+      {
+        "question": "What is the difference from Classic?",
+        "answer": "The Connect model has the same filtration performance as the Classic but adds WiFi connectivity and a mobile app for tracking filter life and water usage."
+      },
+      {
+        "question": "Can I use it without the app?",
+        "answer": "Yes, it works perfectly as a standalone purifier even if you choose not to use the smart features."
+      }
+    ]
+  },
+  {
+    "name": "AquaTru Under Sink",
+    "category": "Water Purifier",
+    "description": "A high-performance reverse osmosis system that installs under your kitchen sink, saving valuable counter space. It provides pure water through a dedicated lead-free faucet.",
+    "specs": {
+      "stages": "4-stage filtration",
+      "installation": "Professional installation recommended; requires drilling for the faucet",
+      "tank": "3-gallon pressurized storage tank",
+      "recovery_rate": "1:1 (very efficient for RO)"
+    },
+    "faqs": [
+      {
+        "question": "Does it need a dedicated faucet?",
+        "answer": "Yes, the system comes with a dedicated lead-free faucet that must be installed on your sink or countertop."
+      }
+    ]
+  },
+  {
+    "name": "AquaTru Carafe",
+    "category": "Water Purifier",
+    "description": "A compact countertop RO system that dispenses water into a glass carafe. Perfect for smaller kitchens, singles, or couples. The carafe is fridge-friendly.",
+    "specs": {
+      "stages": "4-stage filtration",
+      "carafe_size": "1.9 liters",
+      "footprint": "Smallest footprint of all AquaTru models",
+      "carafe_material": "BPA-free plastic (glass carafe sold separately)"
+    },
+    "faqs": [
+      {
+        "question": "Can the carafe go in the fridge?",
+        "answer": "Yes, the carafe is designed to fit in standard refrigerator doors so you can have chilled, purified water."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 3000 Carbon Filter",
+    "category": "Accessory",
+    "description": "Replacement Dual-Action Carbon/Gas Trap/VOC filter for the AirDoctor 3000 air purifier.",
+    "specs": {
+      "lifespan": "6 months",
+      "material": "Activated Carbon and Potassium Permanganate"
+    },
+    "faqs": [
+      {
+        "question": "When should I replace it?",
+        "answer": "The filter indicator light on your AirDoctor 3000 will turn red when it is time to replace the carbon filter, typically every 6 months."
+      }
+    ]
+  },
+  {
+    "name": "AquaTru VOC Filter",
+    "category": "Accessory",
+    "description": "Stage 4 replacement filter for all AquaTru countertop models. Removes volatile organic compounds and improves taste.",
+    "specs": {
+      "lifespan": "600 gallons or 12 months",
+      "type": "Activated Carbon block"
+    },
+    "faqs": []
+  }
+]
