@@ -68,6 +68,26 @@
             box-shadow: 0 0 10px #4ade80;
         }
 
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .clear-cache-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            border-radius: 0.5rem;
+        }
+
+        .clear-cache-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: none;
+        }
+
         #chat-container {
             flex: 1;
             padding: 2rem;
@@ -203,7 +223,10 @@
 <body>
     <header>
         <h1>AirDoctor & AquaTru AI</h1>
-        <div class="status">System Online</div>
+        <div class="header-right">
+            <button id="clear-cache-btn" class="clear-cache-btn">Clear Cache</button>
+            <div class="status">System Online</div>
+        </div>
     </header>
 
     <div id="chat-container">
@@ -221,6 +244,7 @@
         const chatContainer = document.getElementById('chat-container');
         const userInput = document.getElementById('user-input');
         const sendBtn = document.getElementById('send-btn');
+        const clearCacheBtn = document.getElementById('clear-cache-btn');
         
         let chatHistory = [];
 
@@ -299,6 +323,20 @@
             const el = document.getElementById(id);
             if (el) el.remove();
         }
+
+        clearCacheBtn.addEventListener('click', async () => {
+            try {
+                const response = await fetch('/clear-cache', { method: 'POST' });
+                if (response.ok) {
+                    addMessage("Cache cleared successfully.", 'bot');
+                } else {
+                    addMessage("Failed to clear cache.", 'bot');
+                }
+            } catch (error) {
+                console.error("Failed to clear cache", error);
+                addMessage("Failed to connect to server to clear cache.", 'bot');
+            }
+        });
 
         sendBtn.addEventListener('click', sendMessage);
         userInput.addEventListener('keypress', (e) => {
