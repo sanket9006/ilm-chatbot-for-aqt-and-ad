@@ -221,12 +221,14 @@
         const chatContainer = document.getElementById('chat-container');
         const userInput = document.getElementById('user-input');
         const sendBtn = document.getElementById('send-btn');
+        
+        let chatHistory = [];
 
         async function sendMessage() {
             const query = userInput.value.trim();
             if (!query) return;
 
-            // Add user message
+            // Add user message to UI
             addMessage(query, 'user');
             userInput.value = '';
 
@@ -234,11 +236,30 @@
             const loadingId = addLoading();
 
             try {
-                const response = await fetch(`/ask?query=${encodeURIComponent(query)}`);
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        history: chatHistory
+                    })
+                });
                 const data = await response.json();
                 
                 removeLoading(loadingId);
                 addMessage(data.answer, 'bot', data.sources);
+                
+                // Update history
+                chatHistory.push({ role: 'user', content: query });
+                chatHistory.push({ role: 'assistant', content: data.answer });
+                
+                // Keep history manageable (last 6 messages = 3 turns)
+                if (chatHistory.length > 6) {
+                    chatHistory = chatHistory.slice(-6);
+                }
+                
             } catch (error) {
                 removeLoading(loadingId);
                 addMessage("Sorry, I encountered an error connecting to the server.", 'bot');

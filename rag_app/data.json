@@ -188,5 +188,161 @@
       "type": "Activated Carbon block"
     },
     "faqs": []
+  },
+  {
+    "name": "AirDoctor 1000i",
+    "category": "Air Purifier",
+    "description": "The smart version of the portable tower model, ideal for desktop use or small bedrooms. It fits into tight spaces while providing full AirDoctor purification performance. Includes Wi-Fi connectivity and app integration.",
+    "specs": {
+      "coverage": "285 sq. ft. 4x/hour",
+      "filter_type": "UltraHEPA",
+      "noise_level": "30-52 dB",
+      "dimensions": "23 x 9 x 9 inches",
+      "smart_features": "Wi-Fi enabled, app control, real-time AQI monitoring, filter change alerts"
+    },
+    "faqs": [
+      {
+        "question": "What is the difference between AD1000 and AD1000i?",
+        "answer": "The AD1000i includes Wi-Fi connectivity, allowing you to control the purifier, monitor air quality, and receive filter change alerts directly from your smartphone via the AirDoctor app."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 2000i",
+    "category": "Air Purifier",
+    "description": "The smart, compact and portable AirDoctor 2000i is designed for smaller spaces like nurseries, guest bedrooms, and home offices. It adds Wi-Fi app connectivity to the powerful UltraHEPA technology.",
+    "specs": {
+      "coverage": "305 sq. ft. 4x/hour (610 sq. ft. 2x/hour)",
+      "filter_type": "UltraHEPA",
+      "noise_level": "25-45 dB",
+      "dimensions": "18.75 x 12 x 12 inches",
+      "smart_features": "Wi-Fi enabled, app control, real-time indoor/outdoor air quality monitoring, remote scheduling"
+    },
+    "faqs": [
+      {
+        "question": "Can I schedule when it runs?",
+        "answer": "Yes, with the AirDoctor app connected to your AD2000i, you can set custom schedules for the purifier to run."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 3000i",
+    "category": "Air Purifier",
+    "description": "The smart version of the professional-grade AirDoctor 3000. It removes ultra-fine particles and features a powerful 3-stage filtration system with the added convenience of Wi-Fi control and app-based monitoring.",
+    "specs": {
+      "coverage": "638 sq. ft. 4x/hour (1,276 sq. ft. 2x/hour)",
+      "filter_type": "UltraHEPA & Dual-Action Carbon/Gas Trap/VOC",
+      "noise_level": "30-50 dB",
+      "dimensions": "23 x 15.75 x 8.25 inches",
+      "cadr": "340 cfm",
+      "smart_features": "Wi-Fi enabled, app control, real-time AQI monitoring, filter change alerts, sharing control with family"
+    },
+    "faqs": [
+      {
+        "question": "Do I need the app to use the AD3000i?",
+        "answer": "No, the AirDoctor 3000i can be operated manually using the control panel on the unit, just like the standard model. The app provides additional convenience and monitoring features."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 5000i",
+    "category": "Air Purifier",
+    "description": "The smart version of our most powerful model, designed for large spaces, high ceilings, and open-concept living areas. The AD5000i features dual-sided filtration and full Wi-Fi connectivity.",
+    "specs": {
+      "coverage": "1,001 sq. ft. 4x/hour (2,002 sq. ft. 2x/hour)",
+      "filter_type": "Dual UltraHEPA & Dual Carbon Filters",
+      "noise_level": "35-55 dB",
+      "dimensions": "29.75 x 16 x 16 inches",
+      "cadr": "560 cfm",
+      "smart_features": "Wi-Fi enabled, app control, advanced air quality tracking, filter status notifications"
+    },
+    "faqs": [
+      {
+        "question": "Can I control multiple units from the app?",
+        "answer": "Yes, you can pair multiple 'i' series AirDoctor purifiers (like the 3000i and 5000i) to the same AirDoctor app for whole-home control."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 5500i",
+    "category": "Air Purifier",
+    "description": "A high-performance smart air purifier closely related to the 5000i, offering exceptional coverage for extra-large spaces with dual filtration systems and full app integration.",
+    "specs": {
+      "coverage": "1,043 sq. ft. 4x/hour",
+      "filter_type": "Dual UltraHEPA & Dual Carbon Filters",
+      "noise_level": "35-55 dB",
+      "smart_features": "Wi-Fi enabled, remote app control, air quality alerts, filter replacement tracking"
+    },
+    "faqs": [
+      {
+        "question": "What makes the 'i' version different?",
+        "answer": "The 'i' indicates it is an IoT (Internet of Things) smart device, allowing it to connect to your home Wi-Fi network and communicate with the AirDoctor mobile app."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 3500",
+    "category": "Air Purifier",
+    "description": "The AirDoctor 3500 is a highly capable air purifier for medium to large rooms, sharing similar performance specifications with the AD3000. It features a powerful 3-stage filtration system including an UltraHEPA filter.",
+    "specs": {
+      "coverage": "630 sq. ft. 4x/hour",
+      "filter_type": "UltraHEPA & Carbon/VOC",
+      "cadr": "340 cfm"
+    },
+    "faqs": [
+      {
+        "question": "How does it compare to the AD3000?",
+        "answer": "The AD3500 shares similar performance specifications with the AD3000, including the same coverage area and CADR rating."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 4000",
+    "category": "Air Purifier",
+    "description": "The AirDoctor 4000 features a sleek, cylindrical design with mobility wheels for easy movement. It provides excellent purification for large spaces.",
+    "specs": {
+      "coverage": "694 sq. ft. 4x/hour",
+      "filter_type": "UltraHEPA & Carbon/VOC",
+      "cadr": "370 cfm",
+      "design": "Cylindrical with mobility wheels"
+    },
+    "faqs": [
+      {
+        "question": "Does it have wheels?",
+        "answer": "Yes, the AirDoctor 4000 features mobility wheels, making it easy to move from room to room."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 3000M",
+    "category": "Air Purifier",
+    "description": "The AD3000M is a commercial or office-focused variation of the 3000 series. It is designed for specific environments and may lack certain consumer features like Auto-mode.",
+    "specs": {
+      "coverage": "630 sq. ft. 4x/hour",
+      "filter_type": "UltraHEPA & Carbon/VOC",
+      "cadr": "340 cfm"
+    },
+    "faqs": [
+      {
+        "question": "What does the 'M' stand for?",
+        "answer": "The 'M' usually denotes variations intended for commercial or office usage, which may not include consumer features like Auto-mode."
+      }
+    ]
+  },
+  {
+    "name": "AirDoctor 5000H",
+    "category": "Air Purifier",
+    "description": "The AD5000H is a variation of the powerful 5000 series, designed for specific settings that require customizable filtration. It allows users to swap the pre-filter for additional carbon filtration.",
+    "specs": {
+      "coverage": "1,043 sq. ft. 4x/hour",
+      "filter_type": "Customizable (Dual UltraHEPA / Extra Carbon)",
+      "cadr": "534-556 cfm"
+    },
+    "faqs": [
+      {
+        "question": "Can I customize the filters on the 5000H?",
+        "answer": "Yes, the 5000H allows for customizable filter stacks, such as swapping the pre-filter for additional carbon filtration to handle heavy odors."
+      }
+    ]
   }
 ]
